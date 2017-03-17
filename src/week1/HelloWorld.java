@@ -1,4 +1,5 @@
 package week1;
+
 import java.util.Scanner;
 import java.util.Random;
 
@@ -6,6 +7,21 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 
+		System.out.println("Hello World!");
+
+		
+		
+	
+		
+		
+		  
+		
+		
+		
+		
+		
+		
+		
 		// 첫번째 실습.
 		// int n = 454467;
 		// System.out.print(n+"\n");
