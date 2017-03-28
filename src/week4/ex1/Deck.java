@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Random;
 public class Deck {
 	public int TOTAL_CARDS = 52;
-	public Card[] deck = new Card[53];
+	public Card[] deck = new Card[52];
 	
 	public Random randGener = new Random();
 	public int curCard;
@@ -27,15 +27,17 @@ public class Deck {
 	
 	public void shuffle()
 	{
-		for(int i=0;i<52;i++)
-		{
-			int rand = randGener.nextInt(52);
-			Card temp = deck[i];
-			deck[i]= deck[rand];
-			deck[rand]=temp;
-			
-			
-		}
+//		for(int i=0;i<52;i++)
+//		{
+//			int rand = randGener.nextInt(52);
+//			Card temp = deck[i];
+//			deck[i]= deck[rand];
+//			deck[rand]=temp;
+//			
+//			
+//		}
+		Collections.shuffle(Arrays.asList(deck));
+
 
 	}
 	public Card deal()
