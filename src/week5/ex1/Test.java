@@ -6,9 +6,7 @@ public class Test {
 		Circle cir1 = new Circle("CirObject1", 3.0);
 		Rectangle rec1 = new Rectangle("RecObject1", 3.0, 4.0);
 		Square sq1 = new Square("SquareObject1", 6.0);
-
 		System.out.println("Three shapes have been created: ");
-
 		System.out.print("1."+ cir1.toString());
 		System.out.println();
 		System.out.println();
